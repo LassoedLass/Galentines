@@ -1,0 +1,33 @@
+/* styles.css */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #feeaea;
+    font-family: Arial, sans-serif;
+    color: #FF3D5B;
+}
+#title {
+    margin-top: 200px;
+    margin-right: 20px;
+    margin-bottom: 300px;
+    height: 300px;
+    width: 1200px;
+
+}
+#board {
+    width: 480px;
+    height: 480px;
+    background: #ffeded;
+    border: 10px solid #FF3D5B;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #FF3D5B;
+}
